@@ -1,0 +1,24 @@
+{
+  "name": "wishlist-api",
+  "version": "1.0.0",
+  "author": "Jorge Ramos",
+  "description": "API para Wishlist",
+  "license": "MIT",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "seed": "node seed.js",
+    "migrate": "prisma migrate deploy",
+    "build": "prisma generate"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.2.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9",
+    "prisma": "^6.2.1"
+  }
+}

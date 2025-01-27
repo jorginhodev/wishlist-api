@@ -1,0 +1,28 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Product {
+  code             String     @id
+  name             String
+  available        Boolean
+  visible          Boolean
+  details          String
+  fullPriceInCents Int
+  salePriceInCents Int
+  rating           Float
+  image            String
+  stockAvailable   Boolean
+  Wishlist         Wishlist[]
+}
+
+model Wishlist {
+  id          Int     @id @default(autoincrement())
+  productCode String
+  product     Product @relation(fields: [productCode], references: [code])
+}
