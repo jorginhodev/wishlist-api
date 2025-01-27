@@ -122,6 +122,6 @@ Você pode usar ferramentas como Postman ou cURL para interagir com a API. Exemp
 ## Observações
 
 Para rodar a API em produção, você pode acessar o link abaixo:
--   [Vercel](https://wishlist-api-gray.vercel.app)
+-   [Render](https://wishlist-service-lckk.onrender.com)
 
 Para rodar a API localmente, você pode seguir os passos da seção [Instalação](#instalação).
