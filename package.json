@@ -8,6 +8,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
+    "start": "node server.js",
     "seed": "node seed.js",
     "migrate": "prisma migrate deploy",
     "build": "prisma generate"
