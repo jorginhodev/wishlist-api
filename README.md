@@ -122,6 +122,6 @@ Você pode usar ferramentas como Postman ou cURL para interagir com a API. Exemp
 ## Observações
 
 Para rodar a API em produção, você pode acessar o link abaixo:
--   [Render](https://wishlist-service-lckk.onrender.com)
+-   [Render](https://wishlist-api-9izv.onrender.com)
 
 Para rodar a API localmente, você pode seguir os passos da seção [Instalação](#instalação).
